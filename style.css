@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+}
+
+.navbar {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: solid gray 1px;
+}
+
+.navbar__s1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s1__title {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.navbar__s2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.navbar__s3 {
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.navbar__s3 img {
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.navbar__s3 button{
+    background-color: black;
+    color: white;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 80px;
+    height:35px;
+}
+.container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+}
+
+.categories i {
+    margin-top: 5px;
+
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid #E0E0E0 1px;
+    border-radius: 30px;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+}
+
+.searchbar input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.searchbar button {
+    background-color: #84E9BD;
+    color: black;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+}
+
+.ad-image{
+    padding: 40px;
+    position: relative;
+}
+.ad-image img{
+    width: 100%;
+    background-color: #DBCCFE;
+    border-radius: 30px;
+    margin-top: 20px;
+
+}
+.ad-image__words{
+    border:solid grey 0.5px;
+    color: #301D49;
+    width: 35%;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    /* font-size: 23px; */
+    top: 30%;
+    left: 15%;  
+}
+.ad-image__para{
+    background-color: #FFFFFF;
+    color: black;
+    border: solid white;
+    border-radius: 3px;
+    width: 25px;
+    /* font-size: 10px; */
+
+}
+.ad-image__words button{
+    background-color: #52327C;
+    color: #FFFFFF;
+    border-radius: 60px;
+    margin-top: 10px;
+    padding: 20px;
+    border: none;   
+}
+.award{
+    padding: 40px;
+}
+.award-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.beach-image{
+    padding-top: 20px;
+    position: relative;
+}
+.beach-image img{
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+  
+}
+.beach-image__title{
+    padding: 10px;
+    position: absolute;
+    bottom: 50px;
+    color: #FFFFFF;
+}
+/* class chennai */
+.chennai{
+    padding: 40px;
+ 
+}
+.chennai-image{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.tour-pic{
+    position: relative;
+}
+.tour-pic img{
+    border-radius: 10px;
+}
+.tour-pic__like{
+    position: absolute;
+    top: 0px;
+    right: 110px;
+}
+.tour-pic h3{
+    font-size: 15px;
+}
+/* class  */
